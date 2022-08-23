@@ -1,0 +1,101 @@
+
+  body {
+    margin: 0;
+    font-family:'HBIOS-SYS';
+    background-color: #D5C2EE;
+  }
+  h1 {
+    text-align: center;
+    margin:0;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 45px;
+    font-family: 'EF_MACHO';
+  }
+  ul {
+   list-style:none;
+   border-right: 1px solid gray;
+   width: 100px;
+   margin: 0;
+   padding: 20px;
+   text-align: center;
+   font-size: 25px;
+  }
+  li {
+    margin: 20px 0px;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 258px 258px 258px 258px;
+  }
+  #article {
+    padding-left: 25px;
+    padding-right: 25px
+  }
+  a {
+    color:black;
+    text-decoration:none;
+  }
+  @font-face {
+    font-family: 'EF_hyunygothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_hyunygothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+      font-family: 'EF_MACHO';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_MACHO.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'EF_hyunygothic';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_hyunygothic.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+    font-family: 'HBIOS-SYS';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .list {
+    text-align: center;
+    margin: 30px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border: 6px solid purple;
+    font-size: 30px;
+  }
+  img {
+    margin: 30px;
+    border: 8px solid purple;
+  }
+  div h1 {
+    width: 1060px;
+  }
+  div h2 {
+    width: 1030px;
+    text-align: left;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 35px;
+    padding-top: 20px;
+  }
+  div p {
+    width: 970px;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 1.5;
+    letter-spacing : 0.6px;
+    font-size: 17px;
+  }
+  #grid2 {
+    display: grid;
+    grid-template-columns: 500px 500px;
+  }
+  h3 {
+    margin: 15px;
+    margin-left: 30px;
+  }
