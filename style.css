@@ -3,14 +3,12 @@
     margin: 0;
     font-family:'HBIOS-SYS';
     background-color: #D5C2EE;
+    display: flex;
+    flex-direction: column;
   }
   h1 {
     text-align: center;
-    margin:0;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    font-size: 45px;
-    font-family: 'EF_MACHO';
+    margin: 0px
   }
   ul {
    list-style:none;
@@ -68,24 +66,33 @@
     border: 6px solid purple;
     font-size: 30px;
     background-color: #c491e1;
+    width: 170px;
+    height: 40px;
   }
-  img {
+  #list {
+    display: flex;
+    justify-content: center;
+  }
+  #content {
+    display: flex;
+    justify-content: center;
+
+  }
+  .img {
     margin: 30px;
     border: 8px solid purple;
   }
-  div h1 {
-    width: 1060px;
-  }
-  div h2 {
-    width: 1030px;
+
+  h2 {
+    width: 500px;
     text-align: left;
     margin: 10px;
     margin-left: 30px;
     font-size: 35px;
     padding-top: 20px;
   }
-  div p {
-    width: 970px;
+  p {
+    width: 500px;
     padding-left: 30px;
     padding-top: 20px;
     line-height: 1.5;
@@ -97,6 +104,42 @@
     grid-template-columns: 500px 500px;
   }
   h3 {
+    width: 500px;
     margin: 15px;
     margin-left: 30px;
+  }
+  #list {
+    display: flex;
+    justify-content: center;
+  }
+  .btn-3d.purple {
+    background-color: #cb99c5;
+    box-shadow: 0 0 0 1px #cb99c5 inset,
+          0 0 0 2px rgba(255,255,255,0.15) inset,
+          0 8px 0 0 rgba(189, 142, 183, .7),
+          0 8px 0 1px rgba(0,0,0,.4),
+          0 8px 8px 1px rgba(0,0,0,0.5);
+  }
+  .btn-3d.purple:active {
+    box-shadow: 0 0 0 1px #cb99c5 inset,
+          0 0 0 2px rgba(255,255,255,0.15) inset,
+          0 0 0 1px rgba(0,0,0,0.4);
+  }
+  .btn-container {
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 30px;
+  }
+
+  .btn-3d.purple {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 35px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 30px;
+
   }
